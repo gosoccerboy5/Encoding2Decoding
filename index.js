@@ -8,7 +8,7 @@ const encode = (input) => {
 }
 
 const decode = (input) => {
-  for (i=0, res=''; i < input.length; i+= 2) {
+  for (i=0, res=''; i < input.length; i+=2) {
     const key = input.charAt(i).concat(input.charAt(i + 1))
     res += CHARACTERS.charAt(key - 10)
   }
