@@ -5,7 +5,7 @@ const encode = (input) => {
     res += CHARACTERS.indexOf(lc.charAt(i)) + 10;
   }
   return res;
-}
+};
 
 const decode = (input) => {
   for (i=0, res=''; i < input.length; i+=2) {
@@ -13,9 +13,9 @@ const decode = (input) => {
     res += CHARACTERS.charAt(key - 10);
   }
   return res;
-}
+};
 
 module.exports = {
   encode: encode,
   decode: decode
-}
+};
