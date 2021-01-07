@@ -1,7 +1,8 @@
 {
   "name": "encoding2decoding",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "author": "Resince (https://scratch.mit.edu/users/resince/)",
-  "homepage": "https://github.com/Resince/Encoding2Decoding/#installation",
+  "homepage": "https://scratch.mit.edu/projects/470847518/",
+  "repository": "https://github.com/Resince/Encoding2Decoding/",
   "license": "MIT"
 }
