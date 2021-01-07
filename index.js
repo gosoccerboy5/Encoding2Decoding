@@ -1,8 +1,8 @@
 const CHARACTERS ="abcdefghijklmnopqrstuvwxyz0123456789-_!@#$%^&*)(=+}{][<>?:,. "
 
 const encode = (input) => {
-  for (i=0, res='', lc=input.toLowerCase(); i < input.length; i++) {
-    res += CHARACTERS.indexOf(lc.charAt(i)) + 10;
+  for (i=0, res=''; i < input.length; i++) {
+    res += CHARACTERS.indexOf(input.charAt(i)) + 10;
   }
   return res;
 };
