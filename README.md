@@ -3,7 +3,6 @@
 
 ## Installation
 ```js
-npm install encoding2decoding
 const e2d = require('encoding2decoding');
 ```
 
