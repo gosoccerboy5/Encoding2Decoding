@@ -1,6 +1,5 @@
 # Encoding 2 Decoding
-
-A simpler approach to transferring data.
+[![NPM](https://nodei.co/npm/encoding2decoding.png)](https://nodei.co/npm/encoding2decoding/)
 
 ## Installation
 ```js
