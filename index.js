@@ -1,18 +1,19 @@
 const CHARACTERS ="abcdefghijklmnopqrstuvwxyz0123456789-_!@#$%^&*)(=+}{][<>?:,. ";
 
 const encode = (input) => {
-  for (i=0, res=''; i < input.length; i++) {
-    const lc = input.toLowerCase();
-    res += CHARACTERS.indexOf(lc.charAt(i)) + 10;
-  }
+  let res = input
+    .toLowerCase()
+    .split('')
+    .map(letter => { return CHARACTERS.indexOf(letter) + 10 })
+    .join('');
   return res;
 }
 
 const decode = (input) => {
-  for (i=0, res=''; i < input.length; i+= 2) {
-    const key = input.charAt(i).concat(input.charAt(i + 1));
-    res += CHARACTERS.charAt(key - 10);
-  }
+  let res = input
+    .match(/.{1,2}/g)
+    .map(letter => { return CHARACTERS.charAt(letter - 10) })
+    .join('');
   return res;
 }
 
