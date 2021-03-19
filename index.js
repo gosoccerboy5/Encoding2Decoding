@@ -1,6 +1,6 @@
 const CHARACTERS ="abcdefghijklmnopqrstuvwxyz0123456789-_!@#$%^&*)(=+}{][<>?:,. ";
 
-const encode = (input) => {
+function encode (input) {
   let res = input
     .toLowerCase()
     .split('')
@@ -9,7 +9,7 @@ const encode = (input) => {
   return res;
 }
 
-const decode = (input) => {
+function decode (input) {
   let res = input
     .match(/.{1,2}/g)
     .map(letter => { return CHARACTERS.charAt(letter - 10) })
