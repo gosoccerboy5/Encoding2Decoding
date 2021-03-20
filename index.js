@@ -1,4 +1,4 @@
-const CHARACTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890`-=[]\\;',./~!@#$%^&*()_+{}|:\"<>?";
+const CHARACTERS = "abcdefghijklmnopqrstuvwxyz 1234567890`-=[]\\;',./~!@#$%^&*()_+{}|:\"<>?";
 
 function encode (input) {
   let res = input
