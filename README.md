@@ -8,14 +8,14 @@ npm i encoding2decoding
 
 ## Encoding
 ```js
-const { encode } = require('encoding2decoding');
-encode('abc');                 // Returns 101112
+const {encode} = require('encoding2decoding');
+encode('abc');               // Returns 101112
 ```
 
 ## Decoding
 ```js
-const { decode } = require('encoding2decoding');
-decode('101112');                 // Returns abc
+const {decode} = require('encoding2decoding');
+decode('101112');               // Returns abc
 ```
 ## Disclaimer
 Please note that this package was made for usage on [Scratch](https://scratch.mit.edu). This is similar to Micah Lindley's 'String2Num' however removes lots of the complication. Case sensitive not supported.
