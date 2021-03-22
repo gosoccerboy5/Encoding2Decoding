@@ -18,7 +18,7 @@ const {decode} = require('encoding2decoding');
 decode('101112');               // Returns abc
 ```
 ## Disclaimer
-Please note that this package was made for usage on [Scratch](https://scratch.mit.edu). This is similar to Micah Lindley's 'String2Num' however removes lots of the complication. Case sensitive not supported.
+This is similar to Micah Lindley's 'String2Num' however removes lots of the complication. Case sensitive not supported.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
