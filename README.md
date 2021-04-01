@@ -8,13 +8,13 @@ npm i encoding2decoding
 
 ## Encoding
 ```js
-const {encode} = require('encoding2decoding');
+const { encode } = require('encoding2decoding');
 encode('abc');               // Returns 101112
 ```
 
 ## Decoding
 ```js
-const {decode} = require('encoding2decoding');
+const { decode } = require('encoding2decoding');
 decode('101112');               // Returns abc
 ```
 ## Disclaimer
