@@ -4,7 +4,7 @@ function encode (input) {
   let res = input
     .toLowerCase()
     .split('')
-    .map(letter => { return CHARACTERS.indexOf(letter) + 10 })
+    .map(letter => CHARACTERS.indexOf(letter) + 10)
     .join('');
   return res;
 }
@@ -12,7 +12,7 @@ function encode (input) {
 function decode (input) {
   let res = input
     .match(/.{1,2}/g)
-    .map(letter => { return CHARACTERS.charAt(letter - 10) })
+    .map(letter => CHARACTERS.charAt(letter - 10))
     .join('');
   return res;
 }
